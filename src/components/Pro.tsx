@@ -3,7 +3,7 @@ import { MdVerified } from "react-icons/md";
 
 export default function Features() {
   return (
-    <div className="grid lg:grid-cols-4 sm:grid-cols-2 justify-around bg-[#f9f4ef] py-10">
+    <div className="px-20 grid lg:grid-cols-4 sm:grid-cols-2 justify-around bg-[#f9f4ef] py-10">
     
       <div className=" flex items-center">
         <FaTrophy className="text-5xl text-black mr-2 mb-3" />

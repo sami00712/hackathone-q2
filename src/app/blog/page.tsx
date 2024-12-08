@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import Features from '@/components/Pro';
 
 const BlogLayout = () => {
   const posts = [
@@ -196,6 +197,7 @@ const BlogLayout = () => {
         </div>
       </div>
     </div>
+    <Features/>
     </div>
   );
 };

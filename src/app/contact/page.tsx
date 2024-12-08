@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import Features from '@/components/Pro';
 
 export default function Contact(){
     return (
@@ -149,6 +150,7 @@ export default function Contact(){
             </form>
           </div>
         </div>
+        <Features/>
         </div>
       );
     
